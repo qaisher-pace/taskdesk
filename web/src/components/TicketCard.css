@@ -1,0 +1,38 @@
+.card {
+    max-width: 420px;
+    padding: 16px;
+    margin: 16px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: system-ui, sans-serif;
+}
+
+.card h2 {
+    margin: 0 0 8px;
+    font-size: 1.1rem;
+}
+
+.badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    color: #fff;
+    background: #6b7280;
+}
+
+.badge-low {
+    background: #16a34a;
+}
+
+.badge-medium {
+    background: #ca8a04;
+}
+
+.badge-high {
+    background: #ea580c;
+}
+
+.badge-urgent {
+    background: #dc2626;
+}
